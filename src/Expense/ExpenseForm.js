@@ -1,9 +1,10 @@
 import { useState } from "react";
-import Button from 'react-bootstrap/Button';
+import { Col, Form, Row } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 
 function ExpenseForm({ onSubmitedExpense }) {
   const [description, setDescription] = useState("");
-  const [amount, setAmount] = useState("");
+  const [amount, setAmount] = useState(0);
   const [date, setDate] = useState(
     new Date(Date.now()).toLocaleDateString("en-CA")
   );
@@ -27,29 +28,46 @@ function ExpenseForm({ onSubmitedExpense }) {
   };
 
   return (
-    <form onSubmit={submit}>
-      <input
-        type="text"
-        placeholder="Description"
-        value={description}
-        onChange={(event) => setDescription(event.target.value)}
-      />
-      {description}
-      <input
-        type="number"
-        placeholder="Amount"
-        value={amount}
-        onChange={(event) => setAmount(event.target.value)}
-      />
-      <input
-        type="date"
-        placeholder="Date"
-        value={date}
-        onChange={(event) => setDate(event.target.value)}
-      />
-      
-      <Button variant="primary">Save</Button>
-    </form>
+    <Form onSubmit={submit}>
+      <Row className="mb-3">
+        <Col>
+          <Form.Group>
+            <Form.Label>Amount</Form.Label>
+            <Form.Control
+              type="number"
+              value={amount}
+              onChange={(event) => setAmount(event.target.value)}
+            />
+          </Form.Group>
+        </Col>
+        <Col>
+          <Form.Group>
+            <Form.Label>Date</Form.Label>
+            <Form.Control
+              type="date"
+              value={date}
+              onChange={(event) => setDate(event.target.value)}
+            />
+          </Form.Group>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col>
+          <Form.Group>
+            <Form.Label>Description</Form.Label>
+            <Form.Control
+              as="textarea"
+              rows={3}
+              value={description}
+              onChange={(event) => setDescription(event.target.value)}
+            />
+          </Form.Group>
+        </Col>
+      </Row>
+
+      <Button className="mt-3" variant="primary">Save</Button>
+    </Form>
   );
 }
 
