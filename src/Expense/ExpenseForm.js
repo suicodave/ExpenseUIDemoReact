@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from 'react-bootstrap/Button';
 
 function ExpenseForm({ onSubmitedExpense }) {
   const [description, setDescription] = useState("");
@@ -46,8 +47,8 @@ function ExpenseForm({ onSubmitedExpense }) {
         value={date}
         onChange={(event) => setDate(event.target.value)}
       />
-
-      <button type="submit">Submit</button>
+      
+      <Button variant="primary">Save</Button>
     </form>
   );
 }
