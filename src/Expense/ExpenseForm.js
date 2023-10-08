@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Col, Form, InputGroup, Row } from "react-bootstrap";
+import { Card, Col, Form, InputGroup, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
 function ExpenseForm({ onSubmitedExpense }) {
@@ -28,46 +28,53 @@ function ExpenseForm({ onSubmitedExpense }) {
   };
 
   return (
-    <Form onSubmit={submit}>
-      <Row className="mb-3">
-        <Col>
-          <InputGroup>
-            <InputGroup.Text>PHP</InputGroup.Text>
-            <Form.Control
-              type="number"
-              value={amount}
-              onChange={(event) => setAmount(event.target.value)}
-            />
-          </InputGroup>
-        </Col>
-        <Col>
-          <InputGroup>
-            <InputGroup.Text>Date</InputGroup.Text>
-            <Form.Control
-              type="date"
-              value={date}
-              onChange={(event) => setDate(event.target.value)}
-            />
-          </InputGroup>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col>
-          <InputGroup>
-            <InputGroup.Text>Description</InputGroup.Text>
-            <Form.Control
-              as="textarea"
-              rows={3}
-              value={description}
-              onChange={(event) => setDescription(event.target.value)}
-            />
-          </InputGroup>
-        </Col>
-      </Row>
-
-      <Button className="mt-3" variant="primary">Save</Button>
-    </Form>
+    <Card>
+      <Card.Body>
+        <Card.Title className="mb-3">Expense Form</Card.Title>
+        <Form onSubmit={submit}>
+          <Row>
+            <Col>
+              <InputGroup>
+                <InputGroup.Text>Description</InputGroup.Text>
+                <Form.Control
+                  as="textarea"
+                  rows={3}
+                  value={description}
+                  onChange={(event) => setDescription(event.target.value)}
+                />
+              </InputGroup>
+            </Col>
+          </Row>
+          <Row className="mt-3">
+            <Col lg="5">
+              <InputGroup>
+                <InputGroup.Text>PHP</InputGroup.Text>
+                <Form.Control
+                  type="number"
+                  value={amount}
+                  onChange={(event) => setAmount(event.target.value)}
+                />
+              </InputGroup>
+            </Col>
+            <Col lg="5">
+              <InputGroup>
+                <InputGroup.Text>Date</InputGroup.Text>
+                <Form.Control
+                  type="date"
+                  value={date}
+                  onChange={(event) => setDate(event.target.value)}
+                />
+              </InputGroup>
+            </Col>
+            <Col lg="2" className="float-right">
+              <Button variant="primary" type="submit" className="w-100">
+                Save
+              </Button>
+            </Col>
+          </Row>
+        </Form>
+      </Card.Body>
+    </Card>
   );
 }
 
