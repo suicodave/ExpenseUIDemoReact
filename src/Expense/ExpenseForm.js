@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Col, Form, Row } from "react-bootstrap";
+import { Col, Form, InputGroup, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
 function ExpenseForm({ onSubmitedExpense }) {
@@ -31,38 +31,38 @@ function ExpenseForm({ onSubmitedExpense }) {
     <Form onSubmit={submit}>
       <Row className="mb-3">
         <Col>
-          <Form.Group>
-            <Form.Label>Amount</Form.Label>
+          <InputGroup>
+            <InputGroup.Text>PHP</InputGroup.Text>
             <Form.Control
               type="number"
               value={amount}
               onChange={(event) => setAmount(event.target.value)}
             />
-          </Form.Group>
+          </InputGroup>
         </Col>
         <Col>
-          <Form.Group>
-            <Form.Label>Date</Form.Label>
+          <InputGroup>
+            <InputGroup.Text>Date</InputGroup.Text>
             <Form.Control
               type="date"
               value={date}
               onChange={(event) => setDate(event.target.value)}
             />
-          </Form.Group>
+          </InputGroup>
         </Col>
       </Row>
 
       <Row>
         <Col>
-          <Form.Group>
-            <Form.Label>Description</Form.Label>
+          <InputGroup>
+            <InputGroup.Text>Description</InputGroup.Text>
             <Form.Control
               as="textarea"
               rows={3}
               value={description}
               onChange={(event) => setDescription(event.target.value)}
             />
-          </Form.Group>
+          </InputGroup>
         </Col>
       </Row>
 
