@@ -28,7 +28,7 @@ function ExpensePage() {
         <Col></Col>
       </Row>
       <Row>
-        <ExpenseTable expenses={expenses} onRefresh={fetchExpenses} />
+        <ExpenseTable expenses={expenses} />
       </Row>
     </Container>
   );

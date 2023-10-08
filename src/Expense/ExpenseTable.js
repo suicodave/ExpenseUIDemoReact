@@ -1,16 +1,21 @@
-function ExpenseTable({ expenses, onRefresh }) {
+import { Table } from "react-bootstrap";
+
+function ExpenseTable({ expenses }) {
   return (
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Id</th>
-          <th>Description</th>
-          <th>Amount</th>
-          <th>Date</th>
-        </tr>
-      </thead>
-      <tbody>{renderRows(expenses)}</tbody>
-    </table>
+    <div>
+      <h2>My Expenses</h2>
+      <Table striped>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>{renderRows(expenses)}</tbody>
+      </Table>
+    </div>
   );
 }
 
