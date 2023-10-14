@@ -8,7 +8,7 @@ function ExpensePage() {
   const [expenses, setExpenses] = useState([]);
 
   const fetchExpenses = async () => {
-    const response = await fetch("http://localhost:5050/expenses");
+    const response = await fetch("http://localhost:5050/api/expenses");
 
     const data = await response.json();
 

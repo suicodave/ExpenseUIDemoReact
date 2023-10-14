@@ -12,7 +12,7 @@ function ExpenseForm({ onSubmitedExpense }) {
   const submit = async (event) => {
     event.preventDefault();
 
-    await fetch("http://localhost:5050/expenses", {
+    await fetch("http://localhost:5050/api/expenses", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
