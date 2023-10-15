@@ -8,7 +8,11 @@ function ExpensePage() {
   const [expenses, setExpenses] = useState([]);
 
   const fetchExpenses = async () => {
-    const response = await fetch("http://localhost:5050/api/expenses");
+    const apiUrl = `${process.env.REACT_APP_API_URL}/api/expenses`;
+
+    console.log(process.env);
+
+    const response = await fetch(apiUrl);
 
     const data = await response.json();
 
