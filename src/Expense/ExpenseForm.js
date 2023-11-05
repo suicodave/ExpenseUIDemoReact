@@ -12,8 +12,6 @@ function ExpenseForm({ onSubmitedExpense }) {
   const submit = async (event) => {
     event.preventDefault();
 
-    console.log(process.env);
-
     const apiUrl = `${process.env.REACT_APP_API_URL}/api/expenses`;
 
     await fetch(apiUrl, {
