@@ -3,7 +3,7 @@ import "./ExpensePage.css";
 import ExpenseTable from "./ExpenseTable";
 import ExpenseForm from "./ExpenseForm";
 import NewExpenseNotification from "./NewExpenseNotification";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 function ExpensePage() {
   const [expenses, setExpenses] = useState([]);
@@ -41,6 +41,9 @@ function ExpensePage() {
           <ExpenseForm onSubmitedExpense={onExpenseCreated} />
         </Col>
         <Col>
+          <Button href="/Participants">View Participants</Button>
+          <br />
+          <br />
           <NewExpenseNotification showNotification={newExpenseCreated} />
         </Col>
       </Row>
