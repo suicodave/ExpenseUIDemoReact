@@ -25,7 +25,7 @@ function ParticiantsList() {
       <ListGroup.Item>20</ListGroup.Item>
       <ListGroup.Item>21</ListGroup.Item>
       <ListGroup.Item>22</ListGroup.Item>
-      <ListGroup.Item>23</ListGroup.Item>
+      <ListGroup.Item>Jestoni Villarta</ListGroup.Item>
       <ListGroup.Item>24</ListGroup.Item>
       <ListGroup.Item>25</ListGroup.Item>
     </ListGroup>
