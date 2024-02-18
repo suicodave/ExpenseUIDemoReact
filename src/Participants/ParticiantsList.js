@@ -8,7 +8,7 @@ function ParticiantsList() {
       <ListGroup.Item>Chrisellen Begontes</ListGroup.Item>
       <ListGroup.Item>4</ListGroup.Item>
       <ListGroup.Item>5</ListGroup.Item>
-      <ListGroup.Item>6</ListGroup.Item>
+      <ListGroup.Item>Felma Pamat</ListGroup.Item>
       <ListGroup.Item>7</ListGroup.Item>
       <ListGroup.Item>8</ListGroup.Item>
       <ListGroup.Item>Dodge Suico</ListGroup.Item>
@@ -23,11 +23,11 @@ function ParticiantsList() {
       <ListGroup.Item>18</ListGroup.Item>
       <ListGroup.Item>19</ListGroup.Item>
       <ListGroup.Item>20</ListGroup.Item>
-      <ListGroup.Item>21</ListGroup.Item>
+      <ListGroup.Item></ListGroup.Item>
       <ListGroup.Item>22</ListGroup.Item>
       <ListGroup.Item>Jestoni Villarta</ListGroup.Item>
       <ListGroup.Item>24</ListGroup.Item>
-      <ListGroup.Item>25</ListGroup.Item>
+      <ListGroup.Item></ListGroup.Item>
     </ListGroup>
   );
 }
