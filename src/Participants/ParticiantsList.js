@@ -6,7 +6,7 @@ function ParticiantsList() {
       <ListGroup.Item>Dave Suico</ListGroup.Item>
       <ListGroup.Item>2</ListGroup.Item>
       <ListGroup.Item>3</ListGroup.Item>
-      <ListGroup.Item>Brylle Suerto</ListGroup.Item>
+      <ListGroup.Item>4</ListGroup.Item>
       <ListGroup.Item>5</ListGroup.Item>
       <ListGroup.Item>6</ListGroup.Item>
       <ListGroup.Item>7</ListGroup.Item>
@@ -26,7 +26,7 @@ function ParticiantsList() {
       <ListGroup.Item>21</ListGroup.Item>
       <ListGroup.Item>22</ListGroup.Item>
       <ListGroup.Item>23</ListGroup.Item>
-      <ListGroup.Item>24</ListGroup.Item>
+      <ListGroup.Item>Brylle Suerto</ListGroup.Item>
       <ListGroup.Item>25</ListGroup.Item>
     </ListGroup>
   );
