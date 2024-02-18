@@ -8,7 +8,7 @@ function ParticiantsList() {
       <ListGroup.Item>Chrisellen Begontes</ListGroup.Item>
       <ListGroup.Item>Althea Escol</ListGroup.Item>
       <ListGroup.Item>Rusty ANdrielov Panal</ListGroup.Item>
-      <ListGroup.Item>6</ListGroup.Item>
+      <ListGroup.Item>Anna Dominique Pinote</ListGroup.Item>
       <ListGroup.Item>Reynaldo G. Lauron</ListGroup.Item>
       <ListGroup.Item>8</ListGroup.Item>
       <ListGroup.Item>Dodge Suico</ListGroup.Item>
