@@ -24,7 +24,7 @@ function ParticiantsList() {
       <ListGroup.Item>Julius Padrones</ListGroup.Item>
       <ListGroup.Item>Fryckzle Sande</ListGroup.Item>
       <ListGroup.Item>Brylle Suerto</ListGroup.Item>
-      <ListGroup.Item>22</ListGroup.Item>
+      <ListGroup.Item>Job Quilab</ListGroup.Item>
       <ListGroup.Item>Jestoni Villarta</ListGroup.Item>
       <ListGroup.Item>paul roa</ListGroup.Item>
       <ListGroup.Item>Jay Ann Torres</ListGroup.Item>
