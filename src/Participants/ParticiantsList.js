@@ -14,7 +14,7 @@ function ParticiantsList() {
       <ListGroup.Item>Dodge Suico</ListGroup.Item>
       <ListGroup.Item>10</ListGroup.Item>
       <ListGroup.Item>11</ListGroup.Item>
-      <ListGroup.Item>12</ListGroup.Item>
+      <ListGroup.Item>Alfred Mag-aso</ListGroup.Item>
       <ListGroup.Item>13</ListGroup.Item>
       <ListGroup.Item>14</ListGroup.Item>
       <ListGroup.Item>15</ListGroup.Item>
