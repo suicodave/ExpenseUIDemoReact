@@ -13,7 +13,7 @@ function ParticiantsList() {
       <ListGroup.Item>8</ListGroup.Item>
       <ListGroup.Item>Dodge Suico</ListGroup.Item>
       <ListGroup.Item>10</ListGroup.Item>
-      <ListGroup.Item>11</ListGroup.Item>
+      <ListGroup.Item>Arjay Bonustro</ListGroup.Item>
       <ListGroup.Item>Alfred Mag-aso</ListGroup.Item>
       <ListGroup.Item>Alter Eyas</ListGroup.Item>
       <ListGroup.Item>Francis Olano</ListGroup.Item>
