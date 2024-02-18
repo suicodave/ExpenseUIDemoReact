@@ -19,7 +19,7 @@ function ParticiantsList() {
       <ListGroup.Item>14</ListGroup.Item>
       <ListGroup.Item>15</ListGroup.Item>
       <ListGroup.Item>16</ListGroup.Item>
-      <ListGroup.Item>17</ListGroup.Item>
+      <ListGroup.Item>Khemark Ocariza</ListGroup.Item>
       <ListGroup.Item>18</ListGroup.Item>
       <ListGroup.Item>19</ListGroup.Item>
       <ListGroup.Item>20</ListGroup.Item>
