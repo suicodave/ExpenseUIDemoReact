@@ -7,7 +7,7 @@ function ParticiantsList() {
       <ListGroup.Item>byrone joseph p daligdigan</ListGroup.Item>
       <ListGroup.Item>Chrisellen Begontes</ListGroup.Item>
       <ListGroup.Item>4</ListGroup.Item>
-      <ListGroup.Item>5</ListGroup.Item>
+      <ListGroup.Item>Rusty ANdrielov Panal</ListGroup.Item>
       <ListGroup.Item>6</ListGroup.Item>
       <ListGroup.Item>7</ListGroup.Item>
       <ListGroup.Item>8</ListGroup.Item>
