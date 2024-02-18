@@ -10,7 +10,7 @@ function ParticiantsList() {
       <ListGroup.Item>Rusty ANdrielov Panal</ListGroup.Item>
       <ListGroup.Item>Anna Dominique Pinote</ListGroup.Item>
       <ListGroup.Item>Reynaldo G. Lauron</ListGroup.Item>
-      <ListGroup.Item>8</ListGroup.Item>
+      <ListGroup.Item>John Mark Hondrada</ListGroup.Item>
       <ListGroup.Item>Dodge Suico</ListGroup.Item>
       <ListGroup.Item>Renz Ryan Esguera</ListGroup.Item>
       <ListGroup.Item>Arjay Bonustro</ListGroup.Item>
