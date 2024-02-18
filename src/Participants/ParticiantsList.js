@@ -18,7 +18,7 @@ function ParticiantsList() {
       <ListGroup.Item>13</ListGroup.Item>
       <ListGroup.Item>Francis Olano</ListGroup.Item>
       <ListGroup.Item>15</ListGroup.Item>
-      <ListGroup.Item>16</ListGroup.Item>
+      <ListGroup.Item>Nicole Almerol</ListGroup.Item>
       <ListGroup.Item>Khemark Ocariza</ListGroup.Item>
       <ListGroup.Item>18</ListGroup.Item>
       <ListGroup.Item>19</ListGroup.Item>
