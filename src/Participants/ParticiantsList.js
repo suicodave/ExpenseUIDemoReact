@@ -28,6 +28,7 @@ function ParticiantsList() {
       <ListGroup.Item>Jestoni Villarta</ListGroup.Item>
       <ListGroup.Item>24</ListGroup.Item>
       <ListGroup.Item>Jay Ann Torres</ListGroup.Item>
+      <ListGroup.Item>Hondrada John Mark</ListGroup.Item>
     </ListGroup>
   );
 }
