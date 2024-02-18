@@ -6,7 +6,7 @@ function ParticiantsList() {
       <ListGroup.Item>Dave Suico</ListGroup.Item>
       <ListGroup.Item>2</ListGroup.Item>
       <ListGroup.Item>3</ListGroup.Item>
-      <ListGroup.Item>4</ListGroup.Item>
+      <ListGroup.Item>Brylle Suerto</ListGroup.Item>
       <ListGroup.Item>5</ListGroup.Item>
       <ListGroup.Item>6</ListGroup.Item>
       <ListGroup.Item>7</ListGroup.Item>
