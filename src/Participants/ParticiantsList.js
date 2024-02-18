@@ -3,7 +3,7 @@ import { ListGroup } from "react-bootstrap";
 function ParticiantsList() {
   return (
     <ListGroup>
-      <ListGroup.Item>1</ListGroup.Item>
+      <ListGroup.Item>Dave Suico</ListGroup.Item>
       <ListGroup.Item>2</ListGroup.Item>
       <ListGroup.Item>3</ListGroup.Item>
       <ListGroup.Item>4</ListGroup.Item>
