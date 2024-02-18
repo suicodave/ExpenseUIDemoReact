@@ -20,7 +20,7 @@ function ParticiantsList() {
       <ListGroup.Item>Queenie Love Puebla</ListGroup.Item>
       <ListGroup.Item>16</ListGroup.Item>
       <ListGroup.Item>Khemark Ocariza</ListGroup.Item>
-      <ListGroup.Item>18</ListGroup.Item>
+      <ListGroup.Item>Felma Pamat</ListGroup.Item>
       <ListGroup.Item>Julius Padrones</ListGroup.Item>
       <ListGroup.Item>20</ListGroup.Item>
       <ListGroup.Item>Brylle Suerto</ListGroup.Item>
