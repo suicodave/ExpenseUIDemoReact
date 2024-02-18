@@ -4,7 +4,7 @@ function ParticiantsList() {
   return (
     <ListGroup>
       <ListGroup.Item>Dave Suico</ListGroup.Item>
-      <ListGroup.Item>2</ListGroup.Item>
+      <ListGroup.Item>byrone joseph p daligdigan</ListGroup.Item>
       <ListGroup.Item>3</ListGroup.Item>
       <ListGroup.Item>4</ListGroup.Item>
       <ListGroup.Item>5</ListGroup.Item>
