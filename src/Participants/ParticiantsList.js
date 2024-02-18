@@ -11,7 +11,7 @@ function ParticiantsList() {
       <ListGroup.Item>6</ListGroup.Item>
       <ListGroup.Item>7</ListGroup.Item>
       <ListGroup.Item>8</ListGroup.Item>
-      <ListGroup.Item>9</ListGroup.Item>
+      <ListGroup.Item>Dodge Suico</ListGroup.Item>
       <ListGroup.Item>10</ListGroup.Item>
       <ListGroup.Item>11</ListGroup.Item>
       <ListGroup.Item>12</ListGroup.Item>
