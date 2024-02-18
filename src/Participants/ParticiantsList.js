@@ -27,7 +27,7 @@ function ParticiantsList() {
       <ListGroup.Item>22</ListGroup.Item>
       <ListGroup.Item>Jestoni Villarta</ListGroup.Item>
       <ListGroup.Item>24</ListGroup.Item>
-      <ListGroup.Item>25</ListGroup.Item>
+      <ListGroup.Item>Arjay Bonustro</ListGroup.Item>
     </ListGroup>
   );
 }
